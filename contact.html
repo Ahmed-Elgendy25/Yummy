@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="./assets/logo.png">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Yummy ale b3mlo</title>
+</head>
+
+<body class="  d-flex justify-content-center align-items-center min-vh-100">
+
+  <div class="container">
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="nameInput" placeholder="Enter Your Name"
+          aria-label="Enter Your Name">
+        <div class="alert alert-danger w-100 mt-2 d-none text-center" id="nameAlert">
+          Special characters and numbers not allowed
+        </div>
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="emailInput" placeholder="Enter Your Email"
+          aria-label="Enter Your Email">
+        <div class="alert alert-danger w-100 mt-2 d-none text-center" id="emailAlert">
+          Email not valid (example@domain.com)
+        </div>
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="phoneInput" placeholder="Enter Your Phone"
+          aria-label="Enter Your Phone">
+        <div class="alert alert-danger w-100 mt-2 d-none text-center" id="phoneAlert">
+          Enter a valid Phone Number
+        </div>
+      </div>
+      <div class="col-md-6">
+        <input type="text" class="form-control" id="ageInput" placeholder="Enter Your Age" aria-label="Enter Your Age">
+        <div class="alert alert-danger w-100 mt-2 d-none text-center" id="ageAlert">
+          Enter a valid Age
+        </div>
+      </div>
+      <div class="col-md-6">
+        <input type="password" class="form-control" id="passwordInput" placeholder="Enter Your Password"
+          aria-label="Enter Your Password">
+        <div class="alert alert-danger w-100 mt-2 d-none text-center" id="passwordAlert">
+          Enter a valid password (Minimum eight characters, at least one letter, and one number)
+        </div>
+      </div>
+      <div class="col-md-6">
+        <input type="password" class="form-control" id="repasswordInput" placeholder="Repassword"
+          aria-label="Repassword">
+        <div class="alert alert-danger w-100 mt-2 d-none text-center" id="repasswordAlert">
+          Enter a valid repassword
+        </div>
+      </div>
+      <div class=" mt-4 w-50 mx-auto text-center">
+        <button class="btn btn-md btn-outline-danger" id="submitButton" disabled>Submit</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="./jquery-3.7.1.min.js"></script>
+  <script src="./css/bootstrap.bundle.min.js"></script>
+  <script src="./JS/contact.js"></script>
+</body>
+
+</html>
