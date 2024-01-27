@@ -50,3 +50,13 @@ function displayMeals() {
 function getDetails(id) {
   window.location.href = `http://localhost:5500/details.html?id=${id}`;
 }
+
+$(document).ready(function () {
+  // Simulate a delay (e.g., AJAX request) to show the loading spinner
+  $('.loader').show();
+
+  setTimeout(function () {
+    // Hide the loading spinner when the content is ready
+    $('.loader').hide();
+  }, 2000); // Adjust the delay as needed
+});
