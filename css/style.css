@@ -199,7 +199,7 @@ i {
   position: fixed;
   height: 100%;
   top: 0;
-  left: -200px;
+  left: -220px;
   z-index: 2000;
   transition: left 0.5s ease;
 }
@@ -231,7 +231,7 @@ li a {
   height: 100%;
 
   width: 70px;
-  left: 0%;
+  left: 20%;
   bottom: 0;
   z-index: 5000;
 }
