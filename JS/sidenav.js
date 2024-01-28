@@ -5,6 +5,7 @@ $(function () {
     if ($('#sidebar').hasClass('visible')) {
       $('#sidebar-outter').animate(
         { width: '60px', left: '250px' },
+
         function () {
           $('#reverseSlide').slideDown(1000);
         }
