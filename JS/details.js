@@ -1,5 +1,5 @@
-const hash = window.location.hash.substr(1); // Get the id from the hash
-const id = hash || params.get('id');
+const params = new URLSearchParams(window.location.search);
+const id = params.get('id');
 
 async function detailsOfMeal(id) {
   try {

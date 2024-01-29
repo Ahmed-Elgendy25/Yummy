@@ -48,8 +48,7 @@ function displayMeals() {
 
 // QUERY PARAMETERS TO DETAILS HTML PAGE TO KNOW AND MANIPULATE THE DATA
 function getDetails(id) {
-  // Use hash instead of query parameter
-  const dynamicURL = `${window.location.origin}/details.html#${id}`;
+  const dynamicURL = `https://ahmed-elgendy25.github.io/details.html?id=${id}`;
   window.location.href = dynamicURL;
 }
 
