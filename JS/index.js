@@ -48,11 +48,12 @@ function displayMeals() {
 
 // QUERY PARAMETERS TO DETAILS HTML PAGE TO KNOW AND MANIPULATE THE DATA
 function getDetails(id) {
-  const dynamicURL = `../details.html?id=${id}`;
-
+  // Use hash instead of query parameter
+  const dynamicURL = `${window.location.origin}/details.html#${id}`;
   window.location.href = dynamicURL;
 }
 
+console.log(window.location.origin);
 $(document).ready(function () {
   // Simulate a delay (e.g., AJAX request) to show the loading spinner
   $('.loader').show();
