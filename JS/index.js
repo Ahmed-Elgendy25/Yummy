@@ -48,7 +48,8 @@ function displayMeals() {
 
 // QUERY PARAMETERS TO DETAILS HTML PAGE TO KNOW AND MANIPULATE THE DATA
 function getDetails(id) {
-  const dynamicURL = `${window.location.origin}/details.html?id=${id}`;
+  const dynamicURL = `../details.html?id=${id}`;
+
   window.location.href = dynamicURL;
 }
 
